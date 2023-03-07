@@ -1,0 +1,57 @@
+:root {
+    --bg-color: rgb(1, 7, 49);
+    --text-color: #ffffffff;
+    --text-ecolor: rgb(182, 19, 27);
+    --bg-nav: rgb(2, 5, 33);
+    --surface-color: #fff;
+    --curve: 40;
+}
+
+body {
+    background: var(--bg-color);
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+.container {
+    padding: 40px;
+    width: 90vw;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inner-row {
+    /* width: 50%; */
+    flex: 0 0 50%;
+}
+
+.w-100 {
+    width: 100vw;
+}
+
+.inner-row1 {
+    /* width: 25%; */
+    flex: 0 0 25%;
+}
+
+.inner-row2 {
+    /* width: 30%; */
+    flex: 0 0 30%;
+}
