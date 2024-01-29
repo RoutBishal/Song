@@ -272,6 +272,8 @@
 .teacher-container {
   width: 90vw;
   height: auto;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 .submit {
   margin: 10px;
@@ -473,6 +475,7 @@
 @media (max-width: 1110px) {
   .box1 h1 {
     font-size: 1.5rem;
+    margin-top: 20px;
   }
 
   .btn {
